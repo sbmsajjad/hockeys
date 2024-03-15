@@ -9,6 +9,7 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
@@ -69,9 +70,9 @@
       <!-- club area -->
       <section class="container px-4">
         <div
-          class="section-header text-center border-dotted border-white border-b-2 p-10"
+          class="section-header text-center w-4/6 mx-auto border-dotted border-slate-300 border-b-2 p-10"
         >
-          <h1 class="section-title text-2xl font-bold">
+          <h1 class="section-title text-2xl font-bold mb-5">
             Professional Hockeys Club
           </h1>
           <p class="section-subtitle text-base">
@@ -83,9 +84,13 @@
             resilience and triumph that define our club.
           </p>
         </div>
-        <div class="club-rating container w-4/6 mx-auto flex p-10">
-          <div class="club-facility">
-            <div class="radial-progress" style="--value: 87" role="progressbar">
+        <div class="club-rating container mx-auto lg:flex p-10">
+          <div class="club-facility mt-5">
+            <div
+              class="radial-progress text-error"
+              style="--value: 87"
+              role="progressbar"
+            >
               87%
             </div>
             <h2 class="title mt-4">Prayer Facility</h2>
@@ -94,8 +99,12 @@
               hockey in our community.
             </p>
           </div>
-          <div class="club-facility">
-            <div class="radial-progress" style="--value: 95" role="progressbar">
+          <div class="club-facility mt-8">
+            <div
+              class="radial-progress text-success"
+              style="--value: 95"
+              role="progressbar"
+            >
               95%
             </div>
             <h2 class="title mt-4">Experienced Coach</h2>
@@ -104,18 +113,26 @@
               hockey in our community.
             </p>
           </div>
-          <div class="club-facility">
-            <div class="radial-progress" style="--value: 90" role="progressbar">
+          <div class="club-facility mt-8">
+            <div
+              class="radial-progress text-warning"
+              style="--value: 90"
+              role="progressbar"
+            >
               90%
             </div>
-            <h2 class="title mt-4">Senior Player</h2>
+            <h2 class="title mt-8">Senior Player</h2>
             <p class="">
               Learn about the history of our club and our mission to promote
               hockey in our community.
             </p>
           </div>
-          <div class="club-facility">
-            <div class="radial-progress" style="--value: 80" role="progressbar">
+          <div class="club-facility mt-8">
+            <div
+              class="radial-progress text-info"
+              style="--value: 80"
+              role="progressbar"
+            >
               80%
             </div>
             <h2 class="title mt-4">Training Ground</h2>
@@ -127,6 +144,65 @@
         </div>
       </section>
       <!-- club area end -->
+      <!-- program area -->
+      <section class="container w-11/12 mx-auto">
+        <div
+          class="program-content text-center w-4/6 mx-auto border-dotted border-slate-300 border-b-2 p-10"
+        >
+          <h2 class="text-2xl font-bold mb-5">Program Sections</h2>
+          <p class="text-base">
+            Join the ultimate hockey community in our Fan Zone! Connect with
+            fellow fans, share your favorite moments, and participate in
+            engaging discussions about all things hockey. From game predictions
+            to player highlights, this is your space to celebrate the sport you
+            love.
+          </p>
+        </div>
+        <div class="programee">
+          <div class="kids-program lg:flex gap-4">
+            <div class="junior-program p-10">
+              <h2 class="font-extrabold text-2xl">Junior Program</h2>
+              <p class="text-base mb-10">
+                Welcome to our Junior Division, where young hockey enthusiasts
+                take their first strides on the ice! Our program focuses on
+                introducing the fundamentals of the game in a fun and supportive
+                environment.
+              </p>
+              <button class="btn btn-wide bg-red-600 border-0 text-white">
+                Register Now
+              </button>
+            </div>
+            <div class="teenager-program p-10">
+              <h2 class="font-extrabold text-2xl">Teenager Program</h2>
+              <p class="text-base mb-10">
+                Step into the Progame Division, where the passion for hockey
+                meets the pinnacle of competition. As players enter adulthood,
+                our program offers an elite level of training, competition, and
+                opportunity for those pursuing their hockey dreams.
+              </p>
+              <button class="btn btn-wide bg-red-600 border-0 text-white">
+                Register Now
+              </button>
+            </div>
+          </div>
+          <div class="flex justify-center items-center">
+            <div class="professional-program p-10">
+              <h2 class="font-extrabold text-2xl">Proffesional Program</h2>
+              <p class="text-base mb-10">
+                In our Proffesional Division, the excitement of hockey reaches
+                new heights as players refine their skills and embrace the
+                competitive spirit of the game. From fast-paced drills to
+                strategic gameplay, our program is designed to challenge and
+                empower athletes to reach their full potential.
+              </p>
+              <button class="btn btn-wide bg-red-600 border-0 text-white">
+                Register Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- program area ends -->
     </main>
     <footer></footer>
   </body>

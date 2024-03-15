@@ -1,0 +1,18 @@
+.junior-program {
+  background-image: url(./Images/junior-program.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 30px;
+}
+.teenager-program {
+  background-image: url(./Images/teenager-program.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 30px;
+}
+.professional-program {
+  background-image: url(./Images/proffessional-program.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 30px;
+}
