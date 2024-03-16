@@ -3,16 +3,19 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin: 30px;
+  height: 255px;
 }
 .teenager-program {
   background-image: url(./Images/teenager-program.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 30px;
+  height: 255px;
 }
 .professional-program {
   background-image: url(./Images/proffessional-program.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 30px;
+  height: 340px;
 }
